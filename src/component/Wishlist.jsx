@@ -94,7 +94,7 @@ function Wishlist() {
                                         <p class="card-text lead fw-bold">
                                             &#x20B9; {product.price}
                                         </p>
-                                        <NavLink to={'/wishlist/${commodity.id}'} class="btn btn-outline-dark">
+                                        <NavLink to={'/wishlist/${Commodity.id}'} class="btn btn-outline-dark">
                                             View Item
                                         </NavLink>
                                     </div>
